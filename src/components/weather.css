@@ -1,0 +1,12 @@
+.air-conditins{
+    background-color: var(--dark-color);
+    border-radius: 20px;
+}
+.forecast{
+    background-color: var(--dark-color);
+    border-radius: 20px;
+    padding: 20px;
+}
+.forcact-days{
+    font-size: 14px;
+}
