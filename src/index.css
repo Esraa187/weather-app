@@ -82,9 +82,21 @@ a{
 .search-engine button:hover i {
   color: var(--dark-color);
 }
+.con{
+  height: 50px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
 .toggle{
-  border: none;
+  border: 1px solid white;
   background-color: transparent;
+  padding: 10px 30px;
+  color: #fff;
+  margin-right: 20px;
+}
+.toggle.darkBtn{
+  background-color: #0b131e;
 }
 .toggle i{
   font-size: 35px;
@@ -93,11 +105,6 @@ a{
   top: 10px;
 }
 
-/* .detailed-forecast {
-  background-color: var(--dark-color);
-  border-radius: 8px;
-  padding-top: 10px;
-} */
 
 .forecast-card .card {
   background-color: var(--dark-color);

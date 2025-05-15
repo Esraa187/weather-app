@@ -17,9 +17,11 @@ function App() {
   }, [theme]);
   return (
     <>
-      <button onClick={toggleTheme} className='toggle'>
-        {theme === "dark" ? <i className="fa-solid fa-toggle-on"></i> : <i className="fa-solid fa-toggle-off"></i>}
-      </button>
+      <div className='relative w-100 con'>
+        <button onClick={toggleTheme} className={`toggle ${theme === "dark" ? "darkBtn" : ""}`}>
+          {theme === "dark" ? "Dark Mode" : "Light Mode"}
+        </button>
+      </div>
       <div className='app'>
         <SideMenu />
         <Routes>
